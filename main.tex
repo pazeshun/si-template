@@ -1,0 +1,35 @@
+\documentclass[a4paper]{jarticle}
+\usepackage{si}
+\usepackage{amsmath}
+\usepackage[dvipdfmx]{graphicx}
+
+\begin{document}
+\makeatletter
+%
+% title, name, abst
+\input src/title.tex
+\input src/abst.tex
+%
+% output title
+\maketitle
+%
+% body
+\input src/intro.tex
+\input src/body.tex
+\input src/conclusion
+%
+% acknowledgement (not available for si template)
+% \input src/acknowledge.tex
+%
+% reference
+\input src/bib.tex
+%
+% appendix if necessary
+% \input src/appendix.tex
+%
+\end{document}
+%% 本稿はあくまでも予稿原稿を作成するためのガイドラインを示したものです．
+%% 改行幅やフォントの設定などについては，原稿の内容や量に合わせて適宜判断していただき，
+%% 原稿を作成してください．
+%% また，本稿はSICE-SI2018の予稿原稿の書き方\cite{SI2018}を参考に，
+%% \TeX 用書式を用意したものです．適宜sice-si.styを変更して使用してください．
