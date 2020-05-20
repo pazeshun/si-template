@@ -1,4 +1,5 @@
 # sice-si-template
+[![Build Status](https://travis-ci.org/jsk-report-template/si-template.svg?branch=master)](https://travis-ci.org/github/jsk-report-template/si-template)
 
 Latex template for SICE-SI
 
